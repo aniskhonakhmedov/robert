@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: space-around;
+    grid-gap: 10px;
+}
+.wrapper div {
+    border: 1px solid #e7e7e7;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+}
+
+div:hover{
+    cursor: pointer;
+}
+
+input{
+    border: none;
+    outline: none;
+}
